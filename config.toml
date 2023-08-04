@@ -17,10 +17,10 @@ disableKinds = ["taxonomy", "term"]
   
   Le donazioni saranno effettuate con la massima sicurezza tramite stripe o PayPal."""
   links = [
+    { paypal = { href= "https://www.paypal.com/donate/?hosted_button_id=96RXFETTZFDPQ", text = "Dona con PayPal" }},
     { stripe = { href= "https://buy.stripe.com/28o9BB2UudQf7yo9AD", text = "Pizza Margherita (€6.50)" }},
     { stripe = { href= "https://donate.stripe.com/dR69BB66G13t7yo000", text = "Schiacciata Ripiena (€2)" }},
     { stripe = { href= "https://donate.stripe.com/9AQ3dd0MmeUj2e4001", text = "Scegli quanto donare" }},
-    { paypal = { href= "https://www.paypal.com/donate/?hosted_button_id=96RXFETTZFDPQ", text = "PayPal" }},
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { codepen = "https://codepen.io/username" },
